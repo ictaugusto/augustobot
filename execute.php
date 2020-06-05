@@ -149,7 +149,7 @@ if(substr($domandaL,0,10) == 'iscrizione' or substr($domandaL,0,11) == '/iscrizi
 		$risposta = trim('Ciao, ti ho riconosciuto, sei proprio '.$nome.' '.$cognome.'! D\'ora in poi saprò come chiamarti quando mi servirai.
 		
 		Se lo volessi comunicare direttamente in segreteria il tuo codice telegram è '.$chatId);
-		$urlUserAppr = 'https://www.augusto.puglia.it/reguser.php?c='.$codsocio.'&chatid='.$chatId;
+		$urlUserAppr = 'https://www.augusto.puglia.it/api/reguser.php?c='.$codsocio.'&chatid='.$chatId;
 		$json = file_get_contents($urlUserAppr);
 	}
 	
