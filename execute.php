@@ -143,7 +143,7 @@ if(substr($domandaL,0,10) == 'iscrizione' or substr($domandaL,0,11) == '/iscrizi
 	$cognome = $data["cognome"];
 	
 	if($nome == '' or $cognome == '')
-		$risposta = trim('Mi dispiace non ti ho riconosciuto. Ho letto bene il tuo codice socio? Mi risulta >>'.$codsocio.'<<');
+		$risposta = trim('Mi dispiace non ti ho riconosciuto. Ho letto bene il tuo codice Telegram? Mi risulta >>'.$codsocio.'<<');
 	else
 	{
 		$risposta = trim('Ciao, ti ho riconosciuto, sei proprio '.$nome.' '.$cognome.'! D\'ora in poi saprò come chiamarti quando mi servirai.
@@ -154,7 +154,7 @@ if(substr($domandaL,0,10) == 'iscrizione' or substr($domandaL,0,11) == '/iscrizi
 	}
 	
 	if($codsocio == '')
-		$risposta = trim('Non posso riconoscerti se non mi fornisci il tuo codice tessera');
+		$risposta = trim('Non posso riconoscerti se non mi fornisci il tuo codice Telegram visibile sul tuo profilo in AUGUSTO');
 }
 
 
