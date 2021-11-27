@@ -171,9 +171,10 @@ or $domandaL=='buonpomeriggio' or $domandaL=='buon pomeriggio')
 
 if($domandaL=='servizi')
 {
+	$risposta = "servizi";	
 	$urlUserAppr = 'https://www.augusto.puglia.it/api/comand.php?servizi=1&chatid='.$chatId;
 		$json = file_get_contents($urlUserAppr);
-	$risposta = "Ciao! Come posso esserti utile?";	
+	//$risposta = "Ciao! Come posso esserti utile?";	
 }
 
 
