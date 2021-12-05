@@ -164,7 +164,7 @@ or $domandaL=='buongiorno' or $domandaL=='buon giorno'
 or $domandaL=='buonasera' or $domandaL=='buona sera'
 or $domandaL=='buonpomeriggio' or $domandaL=='buon pomeriggio')
 {
-	$risposta = "Ciao ".$nome.", Come posso esserti utile?";	
+	$risposta = "Ciao, Come posso esserti utile?";	
 }
 
 //---- KEY SERVIZI
@@ -174,7 +174,7 @@ if($domandaL=='servizi')
 	$risposta = "servizi";	
 	$urlUserAppr = 'https://www.augusto.puglia.it/api/comand.php?servizi=1&chatid='.$chatId;
 		$json = file_get_contents($urlUserAppr);
-	//$risposta = "Ciao! Come posso esserti utile?";	
+	$risposta = "Ciao! Servizi, Come posso esserti utile?";	
 }
 
 
