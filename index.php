@@ -1,1 +1,1 @@
-<?php echo "ict wock in progress";
+<?php echo "ict work in progress";
