@@ -177,6 +177,14 @@ if($domandaL=='servizi')
 	$risposta = "Ciao! Servizi, Come posso esserti utile?";	
 }
 
+if($domandaL=='inserisci reperibilita' || $domandaL=='inserisci reperibilità')
+{
+	$risposta = 'Ciao '.$data["nome"].' '.$data["cognome"].'. Quando sei reperibile?';	
+	//$urlUserAppr = 'https://www.augusto.puglia.it/api/comand.php?servizi=1&chatid='.$chatId;
+		//$json = file_get_contents($urlUserAppr);
+	$risposta = "Ciao! Servizi, Come posso esserti utile?";	
+}
+
 
 $parameters = array('chat_id' => $chatId, "text" => $risposta);
 $parameters["method"] = "sendMessage";
