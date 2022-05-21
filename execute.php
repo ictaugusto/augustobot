@@ -13,8 +13,6 @@ function conv_date ($data,$inverti=false)
   }
 }
 
-
-
 function se_iscritto ($chatid,$tpreturn='NOME')
 {
 	$chatid = trim($chatid);
