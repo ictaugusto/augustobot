@@ -164,7 +164,7 @@ or $domandaL=='buongiorno' or $domandaL=='buon giorno'
 or $domandaL=='buonasera' or $domandaL=='buona sera'
 or $domandaL=='buonpomeriggio' or $domandaL=='buon pomeriggio')
 {
-	$risposta = "Ciao, Come posso esserti utile?";	
+	$risposta = "Ciao, Come posso esserti utile?";	 
 }
 
 //---- KEY SERVIZI
